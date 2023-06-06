@@ -2,5 +2,51 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"Two wrists" : 	{
+		"channelcount" : "Stereo",
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "Two wrists",
+		"channel.1" : 		{
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "Wrist-sensibility",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 220.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-editflag" : 0,
+				"preset-name" : "DaytonDAEX19-wrist-regular",
+				"filtermode" : "peaknotch",
+				"Q" : 0.35,
+				"gain" : -24.0
+			}
+
+		}
+,
+		"channel.2" : 		{
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 1,
+			"preset-name" : "Wrist-sensibility",
+			"nfilters" : 1,
+			"filter.1" : 			{
+				"frequency" : 220.0,
+				"ON" : 1,
+				"preset-description" : "undefined",
+				"preset-editflag" : 0,
+				"preset-name" : "DaytonDAEX19-wrist-regular",
+				"filtermode" : "peaknotch",
+				"Q" : 0.35,
+				"gain" : -24.0
+			}
+
+		}
+
+	}
 
 }

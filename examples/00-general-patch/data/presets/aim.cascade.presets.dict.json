@@ -2,5 +2,24 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"Wrist-sensibility" : 	{
+		"ON" : 1,
+		"preset-description" : "undefined",
+		"preset-editflag" : 0,
+		"preset-name" : "Wrist-sensibility",
+		"nfilters" : 1,
+		"filter.1" : 		{
+			"frequency" : 220.0,
+			"ON" : 1,
+			"preset-description" : "undefined",
+			"preset-editflag" : 0,
+			"preset-name" : "Wrist-sensibility",
+			"filtermode" : "peaknotch",
+			"Q" : 0.35,
+			"gain" : -24.0
+		}
+
+	}
 
 }
