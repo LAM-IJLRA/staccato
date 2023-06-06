@@ -1905,13 +1905,63 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 383.0, 298.0, 30.0, 22.0 ],
+									"text" : "GUI"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 262.0, 167.0, 30.0, 22.0 ],
+									"text" : "GUI"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "multichannelsignal", "" ],
+									"patching_rect" : [ 225.0, 330.0, 181.0, 22.0 ],
+									"text" : "aim.mb.LRcrossfilter~ stac testX"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "signal", "signal" ],
+									"patching_rect" : [ 129.0, 110.0, 192.0, 22.0 ],
+									"text" : "mc.unpack~ 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 292.0, 61.0, 102.0, 22.0 ],
-									"text" : "aim.mb.LRcross~"
+									"numoutlets" : 2,
+									"outlettype" : [ "multichannelsignal", "" ],
+									"patching_rect" : [ 129.0, 209.0, 181.0, 22.0 ],
+									"text" : "aim.mb.LRcrossfilter~ stac testX"
 								}
 
 							}
@@ -1929,37 +1979,13 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 453.0, 175.0, 30.0, 22.0 ],
-									"text" : "GUI"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "multichannelsignal", "" ],
-									"patching_rect" : [ 344.0, 203.0, 116.0, 22.0 ],
-									"text" : "aim.mc.mb.limiter3~"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "",
 									"id" : "obj-2",
 									"index" : 1,
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 132.0, 167.0, 30.0, 30.0 ]
+									"patching_rect" : [ 129.0, 267.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1979,8 +2005,22 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 1 ],
-									"source" : [ "obj-5", 0 ]
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 1 ],
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -2453,6 +2493,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "aim.LRcrossfilterbank~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/AIM-VCC/patchers/lib",
+				"patcherrelativepath" : "../../../AIM-VCC/patchers/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "aim.LRcrossfilterbank~.p.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/AIM-VCC/patchers/lib",
 				"patcherrelativepath" : "../../../AIM-VCC/patchers/lib",
@@ -2492,6 +2539,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/AIM/javascript",
 				"patcherrelativepath" : "../../../AIM/javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "aim.bypass.mono.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/AIM/patchers/lib",
+				"patcherrelativepath" : "../../../AIM/patchers/lib",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -2649,13 +2703,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "aim.limiter~.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/AIM/patchers/components",
-				"patcherrelativepath" : "../../../AIM/patchers/components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "aim.locatePatcherWindow.js",
 				"bootpath" : "~/Documents/Max 8/Packages/AIM/javascript",
 				"patcherrelativepath" : "../../../AIM/javascript",
@@ -2663,28 +2710,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "aim.mb.LRcrossfilter2~.model.maxpat",
+				"name" : "aim.mb.LRcrossfilter~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/AIM-VCC/patchers/components",
 				"patcherrelativepath" : "../../../AIM-VCC/patchers/components",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "aim.mb.LRcross~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/AIM-VCC/patchers/lib",
-				"patcherrelativepath" : "../../../AIM-VCC/patchers/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "aim.mb.limiter3~.model.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/AIM-VCC/patchers/components",
-				"patcherrelativepath" : "../../../AIM-VCC/patchers/components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "aim.mb.limiter3~.p.maxpat",
+				"name" : "aim.mb.LRcrossfilter~.model.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/AIM-VCC/patchers/components",
 				"patcherrelativepath" : "../../../AIM-VCC/patchers/components",
 				"type" : "JSON",
@@ -2715,27 +2748,6 @@
 				"name" : "aim.mc.cascade~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/AIM/patchers/components",
 				"patcherrelativepath" : "../../../AIM/patchers/components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "aim.mc.mb.limiter3~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/AIM-VCC/patchers/components",
-				"patcherrelativepath" : "../../../AIM-VCC/patchers/components",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "aim.mc.send~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/AIM/patchers/lib",
-				"patcherrelativepath" : "../../../AIM/patchers/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "aim.mc.send~.p.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/AIM/patchers/lib",
-				"patcherrelativepath" : "../../../AIM/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
