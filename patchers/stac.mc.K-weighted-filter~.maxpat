@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -61,9 +61,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -105,7 +105,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 546.285714285714221, 273.0, 30.0, 30.0 ]
+									"patching_rect" : [ 544.285714285714221, 192.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -117,7 +117,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 473.85714285714289, 273.0, 30.0, 30.0 ]
+									"patching_rect" : [ 471.85714285714289, 192.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -129,7 +129,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 401.428571428571445, 273.0, 30.0, 30.0 ]
+									"patching_rect" : [ 399.428571428571445, 192.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -141,7 +141,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 329.0, 273.0, 30.0, 30.0 ]
+									"patching_rect" : [ 327.0, 192.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -153,7 +153,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 244.285714285714278, 273.0, 30.0, 30.0 ]
+									"patching_rect" : [ 242.285714285714278, 192.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -165,7 +165,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 171.857142857142861, 273.0, 30.0, 30.0 ]
+									"patching_rect" : [ 169.857142857142861, 192.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -177,7 +177,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 99.428571428571431, 273.0, 30.0, 30.0 ]
+									"patching_rect" : [ 97.428571428571431, 192.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -189,19 +189,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 27.0, 273.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 7.0, 147.0, 24.0, 24.0 ]
+									"patching_rect" : [ 25.0, 192.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -227,43 +215,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 596.0, 87.5, 224.0, 64.0 ],
 									"text" : "these are the fairly good approximation given by @stian on https://forum.juce.com/t/how-to-calculate-lufs/32342/5"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"id" : "obj-49",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 546.0, 177.5, 224.0, 37.0 ],
-									"text" : "these are the official coefs from ITU, stupidly expressed for 48kHz only"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 350.0, 192.0, 174.0, 22.0 ],
-									"text" : "1. -2. 1. -1.990047 0.990072"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-11",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 192.0, 280.0, 22.0 ],
-									"text" : "1.535125 -2.691696 1.198393 -1.690659 0.732481"
 								}
 
 							}
@@ -329,13 +280,6 @@
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-13", 0 ]
@@ -426,29 +370,6 @@
 								}
 
 							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"order" : 1,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"order" : 0,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
  ],
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
@@ -515,7 +436,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 29.0, 261.0, 30.0, 30.0 ]
 				}
 
@@ -567,7 +488,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 418.0, 131.0, 256.0, 128.0 ],
-					"setfilter" : [ 0, 0, 1, 0, 0, 37.5, 1.0, 0.70710676908493, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 2, 1, 0, 0, 37.5, 1.0, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -584,7 +505,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 110.0, 131.0, 256.0, 128.0 ],
-					"setfilter" : [ 0, 0, 1, 0, 0, 1472.85791015625, 1.584893226623535, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 7, 1, 0, 0, 1500.0, 1.584893226623535, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
