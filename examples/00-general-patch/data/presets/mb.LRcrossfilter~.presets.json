@@ -1,0 +1,53 @@
+{
+	"_metadata" : 	{
+		"package-version" : 0.4
+	}
+,
+	"6 even bands @order 6" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "6 even bands @order 6",
+		"bandcount" : 6,
+		"xover.1" : 		{
+			"order" : 6,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 80.0
+		}
+,
+		"xover.2" : 		{
+			"order" : 6,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 200.0
+		}
+,
+		"xover.3" : 		{
+			"order" : 6,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 600.0
+		}
+,
+		"xover.4" : 		{
+			"order" : 6,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 2000.0
+		}
+,
+		"xover.5" : 		{
+			"order" : 6,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 6000.0
+		}
+
+	}
+
+}
