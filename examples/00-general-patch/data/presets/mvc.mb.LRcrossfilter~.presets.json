@@ -1,0 +1,115 @@
+{
+	"_metadata" : 	{
+		"package-version" : 0.4
+	}
+,
+	"Get lucky" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "Get lucky",
+		"bandcount" : 4,
+		"xover.1" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 200.0
+		}
+,
+		"xover.2" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 1000.0
+		}
+,
+		"xover.3" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 10000.0
+		}
+
+	}
+,
+	"Ikeda-Vertex" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "Ikeda-Vertex",
+		"bandcount" : 5,
+		"xover.1" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 270.775231212504309
+		}
+,
+		"xover.2" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 1246.714008816149317
+		}
+,
+		"xover.3" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 4188.732417174565853
+		}
+,
+		"xover.4" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 7677.866211570713858
+		}
+
+	}
+,
+	"Exploding Psychology" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "Exploding Psychology",
+		"bandcount" : 5,
+		"xover.1" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 270.775231212504309
+		}
+,
+		"xover.2" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 1246.714008816149317
+		}
+,
+		"xover.3" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 4188.732417174565853
+		}
+,
+		"xover.4" : 		{
+			"order" : 12,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 7677.866211570713858
+		}
+
+	}
+
+}

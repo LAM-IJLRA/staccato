@@ -2,5 +2,81 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"test" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "test",
+		"crossfilter" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"bandcount" : 2,
+			"xover.1" : 			{
+				"order" : 2,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1001.0
+			}
+
+		}
+,
+		"transducer-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0.0,
+					"Q" : 1.0,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000.0
+				}
+
+			}
+
+		}
+,
+		"tactile-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0.0,
+					"Q" : 1.0,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000.0
+				}
+
+			}
+
+		}
+,
+		"AudioSignalDelay" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"time" : 0.0
+		}
+
+	}
 
 }
