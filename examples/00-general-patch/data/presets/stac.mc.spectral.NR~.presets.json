@@ -1,0 +1,29 @@
+{
+	"_metadata" : 	{
+		"package-version" : 0.4
+	}
+,
+	"2ch@100-99" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "2ch@100-99",
+		"channelcount" : "Stereo",
+		"channel.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "100-99",
+			"reduction" : 100.0,
+			"profileupdate" : 99.0
+		}
+,
+		"channel.2" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "100-99",
+			"reduction" : 100.0,
+			"profileupdate" : 99.0
+		}
+
+	}
+
+}

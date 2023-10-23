@@ -1,0 +1,14 @@
+{
+	"_metadata" : 	{
+		"package-version" : 0.4
+	}
+,
+	"100-99" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "100-99",
+		"reduction" : 100.0,
+		"profileupdate" : 99.0
+	}
+
+}
