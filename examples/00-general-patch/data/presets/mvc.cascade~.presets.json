@@ -2,5 +2,49 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"EQ-DAEX19CT-4 @wrist" : 	{
+		"nfilters" : 2,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "EQ-DAEX19CT-4 @wrist",
+		"filter.1" : 		{
+			"gain" : -10.579336457389157,
+			"Q" : 0.317803955339882,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 129.031765918658124
+		}
+,
+		"filter.2" : 		{
+			"gain" : 7.153920685882741,
+			"Q" : 1.0,
+			"filtermode" : "highshelf",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 560.388703932338217
+		}
+
+	}
+,
+	"EQ-Subpac" : 	{
+		"nfilters" : 1,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "EQ-Subpac",
+		"filter.1" : 		{
+			"gain" : -23.0,
+			"Q" : 1.9,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 32.0
+		}
+
+	}
 
 }
