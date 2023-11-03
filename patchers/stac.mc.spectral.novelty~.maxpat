@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -57,8 +57,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 144.5, 464.0, 361.0, 22.0 ],
-					"text" : "mc.poly~ stac.mc.NR.profile.pfft @busymapname #0.busymap"
+					"patching_rect" : [ 144.5, 464.0, 376.0, 22.0 ],
+					"text" : "mc.poly~ stac.spectral.novelty.pfft.p @busymapname #0.busymap"
 				}
 
 			}
@@ -107,8 +107,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -166,8 +166,8 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
+											"major" : 8,
+											"minor" : 6,
 											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
@@ -464,8 +464,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 190.0, 354.0, 418.0, 24.0 ],
-					"text" : "stac.spectral.NR~.model #0.NR #0 channel.1 @autoinit 0"
+					"patching_rect" : [ 190.0, 354.0, 419.0, 24.0 ],
+					"text" : "stac.spectral.novelty~.model #0.NR #0 channel.1 @autoinit 0"
 				}
 
 			}
@@ -478,7 +478,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 177.0, 162.0, 333.0, 35.0 ],
+					"patching_rect" : [ 177.0, 162.0, 334.0, 35.0 ],
 					"text" : "mvc.parameter #0 channelcount @description \"Number of channels\" @default Mono @min 1 @max 64"
 				}
 
@@ -530,7 +530,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 79.0, 78.0, 461.0, 22.0 ],
-					"text" : "mvc.model #0 #1 #2 @type stac.mc.spectral.NR~",
+					"text" : "mvc.model #0 #1 #2 @type stac.mc.spectral.novelty~",
 					"varname" : "mvc.model"
 				}
 
@@ -602,7 +602,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"midpoints" : [ 186.5, 348.0, 598.5, 348.0 ],
+					"midpoints" : [ 186.5, 348.0, 599.5, 348.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 

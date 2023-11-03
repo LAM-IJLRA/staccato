@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -72,8 +72,8 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
+							"major" : 8,
+							"minor" : 6,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -554,8 +554,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 422.0, 142.5, 265.0, 62.0 ],
-					"text" : "mvc.parameter #1 profileupdate @type decimal @range 0. 100. @clip both @description \"Spectral profile update\" @unit % @default 50."
+					"patching_rect" : [ 422.0, 142.5, 273.0, 62.0 ],
+					"text" : "mvc.parameter #1 profileupdate @type decimal @min 0 @clip low @description \"Spectral memory decay rate (T3)\" @unit ms @default 50."
 				}
 
 			}
@@ -592,7 +592,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 126.0, 142.5, 265.0, 49.0 ],
+					"patching_rect" : [ 126.0, 142.5, 273.0, 49.0 ],
 					"text" : "mvc.parameter #1 reduction @type decimal @range 0. 500. @clip both @description \"Reduction amount\" @unit % @default 0"
 				}
 
@@ -607,7 +607,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 52.0, 67.5, 707.0, 24.0 ],
-					"text" : "mvc.model #1 #2 #3 @type stac.spectral.NR~",
+					"text" : "mvc.model #1 #2 #3 @type stac.spectral.novelty~",
 					"varname" : "mvc.model"
 				}
 
