@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
+			"major" : 8,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -62,8 +62,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.0, 103.5, 275.0, 35.0 ],
-					"text" : "prepend script replace pfft newex 0 0 200 12 pfft~ stac.spectral.centroid~.pfft"
+					"patching_rect" : [ 306.0, 104.0, 295.0, 35.0 ],
+					"text" : "prepend script replace pfft newex 0 0 200 12 mc.pfft~ stac.spectral.centroid~.pfft"
 				}
 
 			}
@@ -76,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 275.0, 144.0, 69.0, 22.0 ],
+					"patching_rect" : [ 306.0, 144.0, 69.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -91,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 275.0, 73.5, 114.0, 22.0 ],
+					"patching_rect" : [ 306.0, 74.0, 114.0, 22.0 ],
 					"text" : "patcherargs 2048 4"
 				}
 
@@ -117,7 +117,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 45.0, 50.0, 25.0, 25.0 ],
 					"varname" : "in"
 				}
@@ -131,9 +131,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 45.0, 110.0, 216.0, 22.0 ],
-					"text" : "pfft~ stac.spectral.centroid~.pfft 1024 8",
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 45.0, 110.0, 235.0, 22.0 ],
+					"text" : "mc.pfft~ stac.spectral.centroid~.pfft 1024 8",
 					"varname" : "pfft"
 				}
 
