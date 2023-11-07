@@ -46,5 +46,123 @@
 		}
 
 	}
+,
+	"A-weighted" : 	{
+		"nfilters" : 3,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "A-weighted",
+		"filter.1" : 		{
+			"gain" : -0.161902506583177,
+			"Q" : 0.43,
+			"filtermode" : "highpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 109.159667692490459
+		}
+,
+		"filter.2" : 		{
+			"gain" : 10.0,
+			"Q" : 1.26,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 3500.0
+		}
+,
+		"filter.3" : 		{
+			"gain" : 0.0,
+			"Q" : 0.27,
+			"filtermode" : "lowpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 20000.0
+		}
+
+	}
+,
+	"B-weighted" : 	{
+		"nfilters" : 2,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "B-weighted",
+		"filter.1" : 		{
+			"gain" : -0.161902506583177,
+			"Q" : 0.43,
+			"filtermode" : "highpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 217.719625590819106
+		}
+,
+		"filter.2" : 		{
+			"gain" : 1.09,
+			"Q" : 0.41,
+			"filtermode" : "lowpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 15469.0
+		}
+
+	}
+,
+	"K-weigthed" : 	{
+		"nfilters" : 2,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "K-weigthed",
+		"filter.1" : 		{
+			"gain" : 0.0,
+			"Q" : 0.5,
+			"filtermode" : "highpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "K-weigthed-RLB",
+			"frequency" : 37.5
+		}
+,
+		"filter.2" : 		{
+			"gain" : 4.0,
+			"Q" : 1.0,
+			"filtermode" : "highshelf",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "K-weighted-PreFilter",
+			"frequency" : 1500.0
+		}
+
+	}
+,
+	"EQ-Tectonic-TEAX25C10-8/SP" : 	{
+		"nfilters" : 2,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "EQ-Tectonic-TEAX25C10-8/SP",
+		"filter.1" : 		{
+			"gain" : -12.901362640981004,
+			"Q" : 0.317803955339882,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 129.031765918658124
+		}
+,
+		"filter.2" : 		{
+			"gain" : 13.695679157260807,
+			"Q" : 1.0,
+			"filtermode" : "highshelf",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 560.388703932338217
+		}
+
+	}
 
 }
