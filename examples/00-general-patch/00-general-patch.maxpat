@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 673.0, 123.0, 929.0, 858.0 ],
+		"rect" : [ 236.0, 87.0, 929.0, 858.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -163,7 +163,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 459.0, 619.0, 123.0, 24.0 ],
+					"patching_rect" : [ 496.5, 619.0, 123.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 431.0, 572.0, 123.0, 24.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -175,110 +177,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-18",
-									"linecount" : 3,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 50.0, 100.0, 74.0, 49.0 ],
-									"text" : "mc.delay~ 2048 1024 @chans 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-4",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-9",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 209.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 563.0, 559.0, 89.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p latency-delay"
+					"patching_rect" : [ 600.5, 563.0, 137.0, 22.0 ],
+					"text" : "stac.mc.latencydelay~ 4"
 				}
 
 			}
@@ -289,7 +189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 459.0, 766.0, 53.0, 22.0 ],
+					"patching_rect" : [ 496.5, 766.0, 53.0, 22.0 ],
 					"text" : "mc.limi~"
 				}
 
@@ -303,9 +203,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 459.0, 662.0, 48.0, 98.0 ],
+					"patching_rect" : [ 496.5, 662.0, 48.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 457.0, 598.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 465.0, 598.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -70 ],
@@ -343,6 +243,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 332.0, 619.0, 123.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 276.0, 572.0, 123.0, 24.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -354,110 +256,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-18",
-									"linecount" : 3,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 50.0, 100.0, 74.0, 49.0 ],
-									"text" : "mc.delay~ 2048 1024 @chans 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-4",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-9",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 209.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 436.0, 559.0, 89.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p latency-delay"
+					"patching_rect" : [ 436.0, 563.0, 137.0, 22.0 ],
+					"text" : "stac.mc.latencydelay~ 3"
 				}
 
 			}
@@ -484,7 +284,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 332.0, 662.0, 48.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 330.0, 598.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 313.5, 598.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -70 ],
@@ -522,6 +322,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 175.0, 619.0, 123.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 122.0, 572.0, 123.0, 24.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1607,7 +1409,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 822.0, 68.0, 20.0 ],
+					"patching_rect" : [ 497.5, 822.0, 68.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 465.0, 741.0, 68.0, 20.0 ],
 					"text" : "Wrists-Big"
 				}
 
@@ -1618,7 +1422,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 798.0, 74.0, 22.0 ],
+					"patching_rect" : [ 497.5, 798.0, 74.0, 22.0 ],
 					"text" : "mc.dac~ 5 6"
 				}
 
@@ -1630,110 +1434,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-18",
-									"linecount" : 3,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 50.0, 100.0, 74.0, 49.0 ],
-									"text" : "mc.delay~ 2048 1024 @chans 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-4",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-9",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 209.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 279.0, 559.0, 89.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p latency-delay"
+					"patching_rect" : [ 279.0, 563.0, 137.0, 22.0 ],
+					"text" : "stac.mc.latencydelay~ 2"
 				}
 
 			}
@@ -1760,7 +1462,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 175.0, 662.0, 48.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.0, 598.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 159.5, 598.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -70 ],
@@ -2317,110 +2019,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-18",
-									"linecount" : 3,
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 50.0, 100.0, 74.0, 49.0 ],
-									"text" : "mc.delay~ 2048 1024 @chans 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-4",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-9",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 209.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 45.0, 567.0, 89.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p latency-delay"
+					"patching_rect" : [ 47.0, 567.0, 137.0, 22.0 ],
+					"text" : "stac.mc.latencydelay~ 1"
 				}
 
 			}
@@ -2438,23 +2038,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 175.0, 350.0, 84.0, 22.0 ],
-					"text" : "mc.unpack~ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 47.0, 828.0, 68.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 741.0, 68.0, 20.0 ],
 					"text" : "Phones"
 				}
 
@@ -2518,6 +2108,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 45.0, 105.0, 227.0, 94.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 105.0, 227.0, 94.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2529,6 +2121,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 333.0, 826.0, 81.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 313.5, 741.0, 81.0, 20.0 ],
 					"text" : "Wrists-Small"
 				}
 
@@ -2551,6 +2145,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 175.0, 826.0, 55.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 156.5, 741.0, 55.0, 20.0 ],
 					"text" : "Subpack"
 				}
 
@@ -2590,33 +2186,6 @@
 					"patching_rect" : [ 511.0, 164.0, 188.0, 35.0 ],
 					"text" : "mvc.mc.comp~ stac AudioOutputCompressor",
 					"varname" : "mvc.mc.comp~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-69",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.0, 266.0, 30.0, 22.0 ],
-					"text" : "GUI"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-					"id" : "obj-68",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 175.0, 303.0, 128.0, 35.0 ],
-					"text" : "mvc.mc.cascade~ stac AudioOutputFilter",
-					"varname" : "mvc.mc.cascade~[1]"
 				}
 
 			}
@@ -8658,8 +8227,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 54.5, 602.5, 184.5, 602.5 ],
-					"order" : 3,
+					"midpoints" : [ 56.5, 602.5, 184.5, 602.5 ],
+					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -8667,7 +8236,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"midpoints" : [ 54.5, 602.5, 341.5, 602.5 ],
+					"midpoints" : [ 56.5, 602.5, 341.5, 602.5 ],
 					"order" : 2,
 					"source" : [ "obj-14", 0 ]
 				}
@@ -8676,8 +8245,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"midpoints" : [ 54.5, 602.5, 468.5, 602.5 ],
-					"order" : 1,
+					"midpoints" : [ 56.5, 602.5, 506.0, 602.5 ],
+					"order" : 3,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -8736,7 +8305,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -8745,14 +8314,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"order" : 0,
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"order" : 2,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -8906,20 +8467,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-68", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 1 ],
-					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-81", 1 ],
 					"source" : [ "obj-82", 0 ]
 				}
@@ -8942,20 +8489,11 @@
 			"obj-40" : [ "live.gain~[8]", "mc.live.gain~", 0 ],
 			"obj-45" : [ "live.gain~[11]", "mc.live.gain~", 0 ],
 			"obj-49" : [ "live.gain~[10]", "mc.live.gain~", 0 ],
-			"obj-50::obj-5::obj-61::obj-20.1::obj-19::obj-8::obj-7" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-50::obj-5::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-50::obj-5::obj-61::obj-20.1::obj-19::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[6]"
 				}
 
 			}
