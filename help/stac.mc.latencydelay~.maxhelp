@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 199.0, 177.0, 880.0, 638.0 ],
+		"rect" : [ 199.0, 177.0, 909.0, 704.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 520.0, 287.0, 50.0, 22.0 ]
+					"patching_rect" : [ 512.0, 322.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -56,7 +56,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 520.0, 311.0, 125.0, 22.0 ],
+					"patching_rect" : [ 512.0, 346.0, 125.0, 22.0 ],
 					"text" : "stac.mc.ChainDelay 3"
 				}
 
@@ -68,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 494.0, 474.0, 137.0, 22.0 ],
+					"patching_rect" : [ 486.0, 509.0, 137.0, 22.0 ],
 					"text" : "stac.mc.latencydelay~ 3"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 519.0, 260.0, 148.0, 22.0 ],
+					"patching_rect" : [ 511.0, 295.0, 148.0, 22.0 ],
 					"text" : "stac.pfft.getlatency 1024 4"
 				}
 
@@ -92,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 293.0, 405.5, 148.0, 22.0 ],
+					"patching_rect" : [ 285.0, 441.0, 148.0, 22.0 ],
 					"text" : "stac.pfft.getlatency 4096 4"
 				}
 
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.0, 176.0, 87.0, 22.0 ],
+					"patching_rect" : [ 374.0, 211.0, 87.0, 22.0 ],
 					"text" : "loadmess 1.33"
 				}
 
@@ -115,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 430.0, 204.0, 59.0, 20.0 ],
+					"patching_rect" : [ 422.0, 239.0, 59.0, 20.0 ],
 					"text" : "pitch shift"
 				}
 
@@ -132,7 +132,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 382.0, 202.0, 46.0, 24.0 ]
+					"patching_rect" : [ 374.0, 237.0, 46.0, 24.0 ]
 				}
 
 			}
@@ -145,7 +145,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 236.0, 230.0, 165.0, 23.0 ],
+					"patching_rect" : [ 228.0, 265.0, 165.0, 23.0 ],
 					"text" : "pfft~ gizmo_loadme 4096 4"
 				}
 
@@ -158,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 440.0, 125.0, 24.0 ],
+					"patching_rect" : [ 240.0, 475.0, 125.0, 24.0 ],
 					"text" : "FFT-induced delay"
 				}
 
@@ -170,7 +170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 567.0, 287.0, 125.0, 24.0 ],
+					"patching_rect" : [ 559.0, 322.0, 125.0, 24.0 ],
 					"text" : "FFT-induced delay"
 				}
 
@@ -182,7 +182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 689.0, 390.0, 117.0, 24.0 ],
+					"patching_rect" : [ 681.0, 425.0, 117.0, 24.0 ],
 					"text" : "some extra delay"
 				}
 
@@ -194,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 639.0, 175.0, 80.0, 22.0 ],
+					"patching_rect" : [ 631.0, 210.0, 80.0, 22.0 ],
 					"text" : "loadmess 1.5"
 				}
 
@@ -205,7 +205,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 687.0, 204.0, 59.0, 20.0 ],
+					"patching_rect" : [ 679.0, 239.0, 59.0, 20.0 ],
 					"text" : "pitch shift"
 				}
 
@@ -222,7 +222,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 639.0, 202.0, 46.0, 24.0 ]
+					"patching_rect" : [ 631.0, 237.0, 46.0, 24.0 ]
 				}
 
 			}
@@ -235,7 +235,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 493.0, 230.0, 165.0, 23.0 ],
+					"patching_rect" : [ 485.0, 265.0, 165.0, 23.0 ],
 					"text" : "pfft~ gizmo_loadme 1024 4"
 				}
 
@@ -243,11 +243,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 93.0, 26.0, 150.0, 20.0 ],
-					"text" : "Keeps all pro"
+					"patching_rect" : [ 75.0, 38.0, 433.0, 47.0 ],
+					"text" : "Keeps all processing chain in synch with additional latenc-compensation delays.\nThe stac.mc.latencydelay~ abstraction will compute the minimal necessary delay  for each chain based on the highest latency."
 				}
 
 			}
@@ -262,8 +263,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -383,8 +384,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 4,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -468,8 +469,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 4,
+															"minor" : 6,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1169,7 +1170,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 494.0, 391.0, 67.0, 22.0 ],
+					"patching_rect" : [ 486.0, 426.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1188,7 +1189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 613.0, 358.0, 97.0, 22.0 ],
+					"patching_rect" : [ 605.0, 393.0, 97.0, 22.0 ],
 					"text" : "loadmess 12345"
 				}
 
@@ -1202,7 +1203,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 613.0, 391.0, 79.0, 22.0 ]
+					"patching_rect" : [ 605.0, 426.0, 79.0, 22.0 ]
 				}
 
 			}
@@ -1213,7 +1214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 493.0, 424.0, 118.0, 22.0 ],
+					"patching_rect" : [ 485.0, 459.0, 118.0, 22.0 ],
 					"text" : "delay~ 44100 12345"
 				}
 
@@ -1228,7 +1229,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 493.0, 509.0, 136.0, 30.0 ],
+					"patching_rect" : [ 485.0, 544.0, 136.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -12 ],
@@ -1257,7 +1258,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 354.0, 440.0, 50.0, 22.0 ]
+					"patching_rect" : [ 346.0, 475.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1271,7 +1272,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 236.0, 509.0, 136.0, 30.0 ],
+					"patching_rect" : [ 228.0, 544.0, 136.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -12 ],
@@ -1297,7 +1298,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.0, 573.0, 45.0, 45.0 ]
+					"patching_rect" : [ 71.0, 608.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -1311,7 +1312,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 79.0, 509.0, 136.0, 30.0 ],
+					"patching_rect" : [ 71.0, 544.0, 136.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -12 ],
@@ -1348,7 +1349,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 79.0, 52.0, 226.0, 96.0 ],
+					"patching_rect" : [ 71.0, 87.0, 226.0, 96.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1360,7 +1361,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 236.0, 474.0, 137.0, 22.0 ],
+					"patching_rect" : [ 228.0, 509.0, 137.0, 22.0 ],
 					"text" : "stac.mc.latencydelay~ 2"
 				}
 
@@ -1372,7 +1373,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 79.0, 474.0, 137.0, 22.0 ],
+					"patching_rect" : [ 71.0, 509.0, 137.0, 22.0 ],
 					"text" : "stac.mc.latencydelay~ 1"
 				}
 
@@ -1423,7 +1424,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 502.5, 552.5, 88.5, 552.5 ],
+					"midpoints" : [ 494.5, 587.5, 80.5, 587.5 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -1446,7 +1447,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 88.5, 153.0, 502.5, 153.0 ],
+					"midpoints" : [ 80.5, 188.0, 494.5, 188.0 ],
 					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
@@ -1514,7 +1515,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"midpoints" : [ 245.5, 552.5, 88.5, 552.5 ],
+					"midpoints" : [ 237.5, 587.5, 80.5, 587.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
