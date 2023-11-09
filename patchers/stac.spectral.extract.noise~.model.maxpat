@@ -264,13 +264,13 @@
 				"box" : 				{
 					"color" : [ 0.407843137254902, 0.529411764705882, 0.36078431372549, 1.0 ],
 					"id" : "obj-6",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 404.0, 134.0, 273.0, 49.0 ],
-					"text" : "mvc.parameter #1 reduction @type decimal @range 0. 500. @clip both @description \"Reduction amount\" @unit % @default 0"
+					"patching_rect" : [ 404.0, 134.0, 265.0, 62.0 ],
+					"text" : "mvc.parameter #1 reduction @type decimal @range 0. 500. @clip both @description \"Reduction amount\" @unit % @default 100"
 				}
 
 			}
