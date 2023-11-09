@@ -164,5 +164,52 @@
 		}
 
 	}
+,
+	"ISO-226-50phon" : 	{
+		"nfilters" : 4,
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "ISO-226-50phon",
+		"filter.1" : 		{
+			"gain" : -2.859386287255595,
+			"Q" : 0.391290528307379,
+			"filtermode" : "highpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 275.914230314766542
+		}
+,
+		"filter.2" : 		{
+			"gain" : 3.304326575882789,
+			"Q" : 1.26,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 856.444201167891379
+		}
+,
+		"filter.3" : 		{
+			"gain" : 5.229311120019776,
+			"Q" : 0.27,
+			"filtermode" : "lowpass",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 15444.420998700068594
+		}
+,
+		"filter.4" : 		{
+			"gain" : 3.689357651980764,
+			"Q" : 2.107011541317339,
+			"filtermode" : "peaknotch",
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 2910.930557920766205
+		}
+
+	}
 
 }
