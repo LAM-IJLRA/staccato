@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 113.0, 195.0, 1144.0, 373.0 ],
+		"rect" : [ 15.0, 195.0, 1144.0, 373.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "resonance",
+					"comment" : "makeup",
 					"id" : "obj-12",
 					"index" : 4,
 					"maxclass" : "outlet",
@@ -95,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "" ],
-					"patching_rect" : [ 707.0, 134.0, 265.0, 49.0 ],
+					"patching_rect" : [ 707.0, 134.0, 267.0, 49.0 ],
 					"text" : "mvc.parameter #1 makeup @type decimal @range 0. 24. @clip both @description \"Makeup gain\" @unit dB @default 0"
 				}
 
@@ -163,7 +163,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "resonance",
+					"comment" : "reduction",
 					"id" : "obj-9",
 					"index" : 3,
 					"maxclass" : "outlet",
@@ -175,7 +175,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "frequency",
+					"comment" : "smoothing",
 					"id" : "obj-8",
 					"index" : 2,
 					"maxclass" : "outlet",
