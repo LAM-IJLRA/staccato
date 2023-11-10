@@ -103,116 +103,6 @@
 
 		}
 ,
-		"Transductor-EQ" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"channelcount" : "Mono",
-			"channel.1" : 			{
-				"nfilters" : 1,
-				"preset-description" : "undefined",
-				"ON" : 1,
-				"preset-name" : "none",
-				"filter.1" : 				{
-					"gain" : 0.0,
-					"Q" : 1.0,
-					"filtermode" : "peaknotch",
-					"preset-description" : "undefined",
-					"ON" : 1,
-					"preset-name" : "none",
-					"frequency" : 1000.0
-				}
-
-			}
-
-		}
-,
-		"RissetGlissando" : 		{
-			"range" : [ 40.0, 60.0 ],
-			"spacing" : 5.0,
-			"rate" : 1.0,
-			"oscillators" : 16,
-			"rolloff" : -6.0,
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none"
-		}
-,
-		"crossfilter" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"bandcount" : 2,
-			"xover.1" : 			{
-				"order" : 2,
-				"preset-description" : "undefined",
-				"ON" : 1,
-				"preset-name" : "none",
-				"frequency" : 1001
-			}
-
-		}
-,
-		"transducer-EQ" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"channelcount" : "Mono",
-			"channel.1" : 			{
-				"nfilters" : 1,
-				"preset-description" : "undefined",
-				"ON" : 1,
-				"preset-name" : "none",
-				"filter.1" : 				{
-					"gain" : 0,
-					"Q" : 1,
-					"filtermode" : "peaknotch",
-					"preset-description" : "undefined",
-					"ON" : 1,
-					"preset-name" : "none",
-					"frequency" : 1000
-				}
-
-			}
-
-		}
-,
-		"tactile-EQ" : 		{
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "none",
-			"channelcount" : "Mono",
-			"channel.1" : 			{
-				"nfilters" : 1,
-				"preset-description" : "undefined",
-				"ON" : 1,
-				"preset-name" : "none",
-				"filter.1" : 				{
-					"gain" : 0,
-					"Q" : 1,
-					"filtermode" : "peaknotch",
-					"preset-description" : "undefined",
-					"ON" : 1,
-					"preset-name" : "none",
-					"frequency" : 1000
-				}
-
-			}
-
-		}
-,
-		"SubpacHarmoComp" : 		{
-			"attack" : 20,
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "30dB 4:1 makeup",
-			"threshold" : -30,
-			"release" : 100,
-			"ratio" : 4,
-			"makeupgain" : 0,
-			"activemakeup" : 1
-		}
-,
 		"SubpacNoveltyComp" : 		{
 			"attack" : 20,
 			"preset-description" : "undefined",
@@ -404,6 +294,538 @@
 			"release" : 100,
 			"ratio" : 4.0,
 			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"Transductor-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0.0,
+					"Q" : 1.0,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000.0
+				}
+
+			}
+
+		}
+,
+		"RissetGlissando" : 		{
+			"range" : [ 40.0, 60.0 ],
+			"spacing" : 5.0,
+			"rate" : 1.0,
+			"oscillators" : 16,
+			"rolloff" : -6.0,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none"
+		}
+,
+		"Tectonic-EQ" : 		{
+			"nfilters" : 1,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"Tectonic-NoveltyComp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"Tectonic-SpectralNovelty" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"profileupdate" : 50.0
+			}
+
+		}
+,
+		"Tectonic-Melody-Xfilter" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "500hz large band for downpitch",
+			"bandcount" : 5,
+			"xover.1" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 500.0
+			}
+,
+			"xover.2" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"xover.3" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1500.0
+			}
+,
+			"xover.4" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 2000.0
+			}
+
+		}
+,
+		"Tectonic-Melody-Pitchshift" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "4 chans each one 8va lower",
+			"channelcount" : 4,
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -1200.0
+			}
+,
+			"channel.2" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -2400.0
+			}
+,
+			"channel.3" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -3600.0
+			}
+,
+			"channel.4" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -4800.0
+			}
+
+		}
+,
+		"Tectonic-Melody-Extract" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
+			}
+
+		}
+,
+		"Tectonic-Melody-Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"Tectonic-Melody-EQ" : 		{
+			"nfilters" : 3,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "A-weighted",
+			"filter.1" : 			{
+				"gain" : -0.161902506583177,
+				"Q" : 0.43,
+				"filtermode" : "highpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 109.159667692490459
+			}
+,
+			"filter.2" : 			{
+				"gain" : 10.0,
+				"Q" : 1.26,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 3500.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 0.27,
+				"filtermode" : "lowpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 20000.0
+			}
+
+		}
+,
+		"Tectonic-Noise-Extract" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
+			}
+
+		}
+,
+		"Tectonic-Noise-Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"DAEX-EQ" : 		{
+			"nfilters" : 1,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"filter.1" : 			{
+				"gain" : 0.0,
+				"Q" : 1.0,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+
+		}
+,
+		"DAEX-NoveltyComp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"DAEX-SpectralNovelty" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"profileupdate" : 50.0
+			}
+
+		}
+,
+		"DAEX-Melody-Xfilter" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "500hz large band for downpitch",
+			"bandcount" : 5,
+			"xover.1" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 500.0
+			}
+,
+			"xover.2" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"xover.3" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1500.0
+			}
+,
+			"xover.4" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 2000.0
+			}
+
+		}
+,
+		"DAEX-Melody-Pitchshift" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "4 chans each one 8va lower",
+			"channelcount" : 4,
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -1200.0
+			}
+,
+			"channel.2" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -2400.0
+			}
+,
+			"channel.3" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -3600.0
+			}
+,
+			"channel.4" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -4800.0
+			}
+
+		}
+,
+		"DAEX-Melody-Extract" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
+			}
+
+		}
+,
+		"DAEX-Melody-Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"DAEX-Melody-EQ" : 		{
+			"nfilters" : 3,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "A-weighted",
+			"filter.1" : 			{
+				"gain" : -0.161902506583177,
+				"Q" : 0.43,
+				"filtermode" : "highpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 109.159667692490459
+			}
+,
+			"filter.2" : 			{
+				"gain" : 10.0,
+				"Q" : 1.26,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 3500.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 0.27,
+				"filtermode" : "lowpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 20000.0
+			}
+
+		}
+,
+		"DAEX-Noise-Extract" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
+			}
+
+		}
+,
+		"DAEX-Noise-Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"crossfilter" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"bandcount" : 2,
+			"xover.1" : 			{
+				"order" : 2,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1001
+			}
+
+		}
+,
+		"transducer-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0,
+					"Q" : 1,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000
+				}
+
+			}
+
+		}
+,
+		"tactile-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0,
+					"Q" : 1,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000
+				}
+
+			}
+
+		}
+,
+		"SubpacHarmoComp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4,
+			"makeupgain" : 0,
 			"activemakeup" : 1
 		}
 ,
@@ -613,6 +1035,833 @@
 			"ratio" : 2.0,
 			"makeupgain" : 0.0,
 			"activemakeup" : 1
+		}
+
+	}
+,
+	"2023.11.Demo" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "2023.11.Demo",
+		"mix-Subpac" : 1.0,
+		"mix-Wrists-Small" : 1.0,
+		"mix-Wrists-Big" : 1.0,
+		"Subpac-EQ" : 		{
+			"nfilters" : 1,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "EQ-Subpac",
+			"filter.1" : 			{
+				"gain" : 7.0,
+				"Q" : 7.76,
+				"filtermode" : "lowshelf",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 30.0
+			}
+
+		}
+,
+		"SubpacNoveltyComp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"Subpac-SpectralNovelty" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"profileupdate" : 50.0
+			}
+
+		}
+,
+		"SubpacHarmo1Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"Subpac-ISO226-EQ2" : 		{
+			"nfilters" : 3,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "A-weighted",
+			"filter.1" : 			{
+				"gain" : -0.161902506583177,
+				"Q" : 0.43,
+				"filtermode" : "highpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 109.159667692490459
+			}
+,
+			"filter.2" : 			{
+				"gain" : 10.0,
+				"Q" : 1.26,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 3500.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 0.27,
+				"filtermode" : "lowpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 20000.0
+			}
+
+		}
+,
+		"Subpac-Harmony-Xfilter" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "500hz large band for downpitch",
+			"bandcount" : 5,
+			"xover.1" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 500.0
+			}
+,
+			"xover.2" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"xover.3" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1500.0
+			}
+,
+			"xover.4" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 2000.0
+			}
+
+		}
+,
+		"Subpac-Harmony-Pitchshift" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "4 chans each one 8va lower",
+			"channelcount" : 4,
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -1200.0
+			}
+,
+			"channel.2" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -2400.0
+			}
+,
+			"channel.3" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -3600.0
+			}
+,
+			"channel.4" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -4800.0
+			}
+
+		}
+,
+		"Subpac-Noise" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 200.0,
+				"smoothing" : 50.0,
+				"makeup" : 6.0
+			}
+
+		}
+,
+		"SubpacNoiseComp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"Transductor-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0.0,
+					"Q" : 1.0,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000.0
+				}
+
+			}
+
+		}
+,
+		"RissetGlissando" : 		{
+			"range" : [ 40.0, 60.0 ],
+			"spacing" : 5.0,
+			"rate" : 1.0,
+			"oscillators" : 16,
+			"rolloff" : -6.0,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none"
+		}
+,
+		"Tectonic-EQ" : 		{
+			"nfilters" : 2,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "EQ-Tectonic-TEAX25C10-8/SP",
+			"filter.1" : 			{
+				"gain" : -12.901362640981004,
+				"Q" : 0.317803955339882,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 129.031765918658124
+			}
+,
+			"filter.2" : 			{
+				"gain" : 13.695679157260807,
+				"Q" : 1.0,
+				"filtermode" : "highshelf",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 560.388703932338217
+			}
+
+		}
+,
+		"Tectonic-NoveltyComp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"Tectonic-SpectralNovelty" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"profileupdate" : 50.0
+			}
+
+		}
+,
+		"Tectonic-Melody-Xfilter" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "500hz large band for downpitch",
+			"bandcount" : 5,
+			"xover.1" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 500.0
+			}
+,
+			"xover.2" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"xover.3" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1500.0
+			}
+,
+			"xover.4" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 2000.0
+			}
+
+		}
+,
+		"Tectonic-Melody-Pitchshift" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "4 chans each one 8va lower",
+			"channelcount" : 4,
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -1200.0
+			}
+,
+			"channel.2" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -2400.0
+			}
+,
+			"channel.3" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -3600.0
+			}
+,
+			"channel.4" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -4800.0
+			}
+
+		}
+,
+		"Tectonic-Melody-Extract" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
+			}
+
+		}
+,
+		"Tectonic-Melody-Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"Tectonic-Melody-EQ" : 		{
+			"nfilters" : 3,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "A-weighted",
+			"filter.1" : 			{
+				"gain" : -0.161902506583177,
+				"Q" : 0.43,
+				"filtermode" : "highpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 109.159667692490459
+			}
+,
+			"filter.2" : 			{
+				"gain" : 10.0,
+				"Q" : 1.26,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 3500.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 0.27,
+				"filtermode" : "lowpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 20000.0
+			}
+
+		}
+,
+		"Tectonic-Noise-Extract" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
+			}
+
+		}
+,
+		"Tectonic-Noise-Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"DAEX-EQ" : 		{
+			"nfilters" : 2,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "EQ-DAEX19CT-4 @wrist",
+			"filter.1" : 			{
+				"gain" : -10.579336457389157,
+				"Q" : 0.317803955339882,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 129.031765918658124
+			}
+,
+			"filter.2" : 			{
+				"gain" : 7.153920685882741,
+				"Q" : 1.0,
+				"filtermode" : "highshelf",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 560.388703932338217
+			}
+
+		}
+,
+		"DAEX-NoveltyComp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"DAEX-SpectralNovelty" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"profileupdate" : 50.0
+			}
+
+		}
+,
+		"DAEX-Melody-Xfilter" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "500hz large band for downpitch",
+			"bandcount" : 5,
+			"xover.1" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 500.0
+			}
+,
+			"xover.2" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1000.0
+			}
+,
+			"xover.3" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1500.0
+			}
+,
+			"xover.4" : 			{
+				"order" : 4,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 2000.0
+			}
+
+		}
+,
+		"DAEX-Melody-Pitchshift" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "4 chans each one 8va lower",
+			"channelcount" : 4,
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -1200.0
+			}
+,
+			"channel.2" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -2400.0
+			}
+,
+			"channel.3" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -3600.0
+			}
+,
+			"channel.4" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"pitchshift" : -4800.0
+			}
+
+		}
+,
+		"DAEX-Melody-Extract" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
+			}
+
+		}
+,
+		"DAEX-Melody-Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"DAEX-Melody-EQ" : 		{
+			"nfilters" : 3,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "A-weighted",
+			"filter.1" : 			{
+				"gain" : -0.161902506583177,
+				"Q" : 0.43,
+				"filtermode" : "highpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 109.159667692490459
+			}
+,
+			"filter.2" : 			{
+				"gain" : 10.0,
+				"Q" : 1.26,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 3500.0
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0.0,
+				"Q" : 0.27,
+				"filtermode" : "lowpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 20000.0
+			}
+
+		}
+,
+		"DAEX-Noise-Extract" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
+			}
+
+		}
+,
+		"DAEX-Noise-Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"crossfilter" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"bandcount" : 2,
+			"xover.1" : 			{
+				"order" : 2,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 1001
+			}
+
+		}
+,
+		"transducer-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0,
+					"Q" : 1,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000
+				}
+
+			}
+
+		}
+,
+		"tactile-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0,
+					"Q" : 1,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000
+				}
+
+			}
+
+		}
+,
+		"SubpacHarmoComp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4,
+			"makeupgain" : 0,
+			"activemakeup" : 1
+		}
+,
+		"SubpacHarmo2Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4,
+			"makeupgain" : 0,
+			"activemakeup" : 1
+		}
+,
+		"Subpac-ISO226-EQ" : 		{
+			"nfilters" : 3,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"filter.1" : 			{
+				"gain" : -0.161902506583177,
+				"Q" : 0.43,
+				"filtermode" : "highpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 109.159667692490459
+			}
+,
+			"attack" : 20,
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4,
+			"makeupgain" : 0,
+			"activemakeup" : 1,
+			"filter.2" : 			{
+				"gain" : 10,
+				"Q" : 1.26,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 3500
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0,
+				"Q" : 0.27,
+				"filtermode" : "lowpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 20000
+			}
+
+		}
+,
+		"Subpac-Harmonics" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
+			}
+
 		}
 
 	}
