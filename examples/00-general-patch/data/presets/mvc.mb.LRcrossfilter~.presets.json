@@ -111,5 +111,44 @@
 		}
 
 	}
+,
+	"500hz large band for downpitch" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "500hz large band for downpitch",
+		"bandcount" : 5,
+		"xover.1" : 		{
+			"order" : 4,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 500.0
+		}
+,
+		"xover.2" : 		{
+			"order" : 4,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 1000.0
+		}
+,
+		"xover.3" : 		{
+			"order" : 4,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 1500.0
+		}
+,
+		"xover.4" : 		{
+			"order" : 4,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"frequency" : 2000.0
+		}
+
+	}
 
 }

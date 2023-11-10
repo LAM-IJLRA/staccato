@@ -2,5 +2,40 @@
 	"_metadata" : 	{
 		"package-version" : 0.4
 	}
+,
+	"4 chans each one 8va lower" : 	{
+		"preset-description" : "undefined",
+		"ON" : 1,
+		"preset-name" : "4 chans each one 8va lower",
+		"channelcount" : 4,
+		"channel.1" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"pitchshift" : -1200.0
+		}
+,
+		"channel.2" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"pitchshift" : -2400.0
+		}
+,
+		"channel.3" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"pitchshift" : -3600.0
+		}
+,
+		"channel.4" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"pitchshift" : -4800.0
+		}
+
+	}
 
 }
