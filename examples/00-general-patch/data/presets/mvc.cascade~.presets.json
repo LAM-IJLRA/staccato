@@ -36,13 +36,13 @@
 		"ON" : 1,
 		"preset-name" : "EQ-Subpac",
 		"filter.1" : 		{
-			"gain" : -23.0,
-			"Q" : 1.9,
-			"filtermode" : "peaknotch",
+			"gain" : 7.0,
+			"Q" : 7.76,
+			"filtermode" : "lowshelf",
 			"preset-description" : "undefined",
 			"ON" : 1,
 			"preset-name" : "none",
-			"frequency" : 32.0
+			"frequency" : 30.0
 		}
 
 	}

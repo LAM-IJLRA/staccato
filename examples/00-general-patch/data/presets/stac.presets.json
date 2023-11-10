@@ -86,70 +86,119 @@
 		"mix-Subpac" : 1.0,
 		"mix-Wrists-Small" : 0.5,
 		"mix-Wrists-Big" : 0.5,
-		"crossfilter" : 		{
+		"SubpacNoveltyComp" : 		{
+			"attack" : 20,
 			"preset-description" : "undefined",
 			"ON" : 1,
-			"preset-name" : "none",
-			"bandcount" : 2,
-			"xover.1" : 			{
-				"order" : 2,
-				"preset-description" : "undefined",
-				"ON" : 1,
-				"preset-name" : "none",
-				"frequency" : 1001.0
-			}
-
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
 		}
 ,
-		"transducer-EQ" : 		{
+		"Subpac-Harmonics" : 		{
 			"preset-description" : "undefined",
 			"ON" : 1,
 			"preset-name" : "none",
 			"channelcount" : "Mono",
 			"channel.1" : 			{
-				"nfilters" : 1,
 				"preset-description" : "undefined",
 				"ON" : 1,
 				"preset-name" : "none",
-				"filter.1" : 				{
-					"gain" : 0.0,
-					"Q" : 1.0,
-					"filtermode" : "peaknotch",
-					"preset-description" : "undefined",
-					"ON" : 1,
-					"preset-name" : "none",
-					"frequency" : 1000.0
-				}
-
+				"reduction" : 100.0,
+				"smoothing" : 50.0,
+				"makeup" : 0.0
 			}
 
 		}
 ,
-		"tactile-EQ" : 		{
+		"SubpacHarmo2Comp" : 		{
+			"attack" : 20,
 			"preset-description" : "undefined",
 			"ON" : 1,
-			"preset-name" : "none",
-			"channelcount" : "Mono",
-			"channel.1" : 			{
-				"nfilters" : 1,
-				"preset-description" : "undefined",
-				"ON" : 1,
-				"preset-name" : "none",
-				"filter.1" : 				{
-					"gain" : 0.0,
-					"Q" : 1.0,
-					"filtermode" : "peaknotch",
-					"preset-description" : "undefined",
-					"ON" : 1,
-					"preset-name" : "none",
-					"frequency" : 1000.0
-				}
-
-			}
-
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
 		}
 ,
 		"Subpac-ISO226-EQ" : 		{
+			"nfilters" : 3,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"filter.1" : 			{
+				"gain" : -0.161902506583177,
+				"Q" : 0.43,
+				"filtermode" : "highpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 109.159667692490459
+			}
+,
+			"attack" : 20,
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4,
+			"makeupgain" : 0,
+			"activemakeup" : 1,
+			"filter.2" : 			{
+				"gain" : 10,
+				"Q" : 1.26,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 3500
+			}
+,
+			"filter.3" : 			{
+				"gain" : 0,
+				"Q" : 0.27,
+				"filtermode" : "lowpass",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 20000
+			}
+
+		}
+,
+		"Subpac-EQ" : 		{
+			"nfilters" : 1,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "EQ-Subpac",
+			"filter.1" : 			{
+				"gain" : -23.0,
+				"Q" : 1.9,
+				"filtermode" : "peaknotch",
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"frequency" : 32.0
+			}
+
+		}
+,
+		"SubpacHarmo1Comp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4.0,
+			"makeupgain" : 0.0,
+			"activemakeup" : 1
+		}
+,
+		"Subpac-ISO226-EQ2" : 		{
 			"nfilters" : 3,
 			"preset-description" : "undefined",
 			"ON" : 1,
@@ -186,19 +235,7 @@
 
 		}
 ,
-		"SubpacHarmoComp" : 		{
-			"attack" : 20,
-			"preset-description" : "undefined",
-			"ON" : 1,
-			"preset-name" : "30dB 4:1 makeup",
-			"threshold" : -30,
-			"release" : 100,
-			"ratio" : 4.0,
-			"makeupgain" : 0.0,
-			"activemakeup" : 1
-		}
-,
-		"Subpac-Harmonics" : 		{
+		"Subpac-Noise" : 		{
 			"preset-description" : "undefined",
 			"ON" : 1,
 			"preset-name" : "none",
@@ -207,14 +244,14 @@
 				"preset-description" : "undefined",
 				"ON" : 1,
 				"preset-name" : "none",
-				"smoothing" : 50.0,
-				"makeup" : 0.0,
-				"reduction" : 100.0
+				"reduction" : 100.0,
+				"smoothing" : 10.0,
+				"makeup" : 0.0
 			}
 
 		}
 ,
-		"SubpacNoveltyComp" : 		{
+		"SubpacNoiseComp" : 		{
 			"attack" : 20,
 			"preset-description" : "undefined",
 			"ON" : 1,
@@ -276,21 +313,79 @@
 			"preset-name" : "none"
 		}
 ,
-		"Subpac-EQ" : 		{
-			"nfilters" : 1,
+		"crossfilter" : 		{
 			"preset-description" : "undefined",
 			"ON" : 1,
-			"preset-name" : "EQ-Subpac",
-			"filter.1" : 			{
-				"gain" : -23.0,
-				"Q" : 1.9,
-				"filtermode" : "peaknotch",
+			"preset-name" : "none",
+			"bandcount" : 2,
+			"xover.1" : 			{
+				"order" : 2,
 				"preset-description" : "undefined",
 				"ON" : 1,
 				"preset-name" : "none",
-				"frequency" : 32.0
+				"frequency" : 1001
 			}
 
+		}
+,
+		"transducer-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0,
+					"Q" : 1,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000
+				}
+
+			}
+
+		}
+,
+		"tactile-EQ" : 		{
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "none",
+			"channelcount" : "Mono",
+			"channel.1" : 			{
+				"nfilters" : 1,
+				"preset-description" : "undefined",
+				"ON" : 1,
+				"preset-name" : "none",
+				"filter.1" : 				{
+					"gain" : 0,
+					"Q" : 1,
+					"filtermode" : "peaknotch",
+					"preset-description" : "undefined",
+					"ON" : 1,
+					"preset-name" : "none",
+					"frequency" : 1000
+				}
+
+			}
+
+		}
+,
+		"SubpacHarmoComp" : 		{
+			"attack" : 20,
+			"preset-description" : "undefined",
+			"ON" : 1,
+			"preset-name" : "30dB 4:1 makeup",
+			"threshold" : -30,
+			"release" : 100,
+			"ratio" : 4,
+			"makeupgain" : 0,
+			"activemakeup" : 1
 		}
 
 	}
