@@ -116,7 +116,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 256.0, 253.0, 148.0, 22.0 ],
-									"text" : "stac.pfft.getlatency 4096 4"
+									"text" : "mvc.pfft.getlatency 4096 4"
 								}
 
 							}

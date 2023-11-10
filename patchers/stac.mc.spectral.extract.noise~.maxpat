@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 571.0, -936.0, 646.0, 579.0 ],
+		"rect" : [ 552.0, 254.0, 646.0, 579.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 256.0, 253.0, 148.0, 22.0 ],
-									"text" : "stac.pfft.getlatency 4096 4"
+									"text" : "mvc.pfft.getlatency 4096 4"
 								}
 
 							}
@@ -858,7 +858,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 28.0, 35.0, 30.0, 30.0 ]
 				}
 
