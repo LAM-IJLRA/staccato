@@ -1,0 +1,240 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 0,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "dsp.gen",
+		"rect" : [ 223.0, 130.0, 750.0, 885.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 609.0, 16.0, 134.0, 20.0 ],
+					"text" : "reset buffer when == 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 331.0, 16.0, 134.0, 20.0 ],
+					"presentation_linecount" : 3,
+					"text" : "buffer size (max 48000)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 55.0, 12.0, 69.0, 20.0 ],
+					"presentation_linecount" : 3,
+					"text" : "signal input"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 614.0, 837.0, 56.0, 20.0 ],
+					"text" : "collected"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 338.0, 847.0, 39.0, 20.0 ],
+					"text" : "std"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 176.0, 842.0, 39.0, 20.0 ],
+					"text" : "mean"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 301.0, 846.0, 35.0, 22.0 ],
+					"text" : "out 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 577.0, 15.0, 28.0, 22.0 ],
+					"text" : "in 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 577.0, 836.0, 35.0, 22.0 ],
+					"text" : "out 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 301.0, 15.0, 28.0, 22.0 ],
+					"text" : "in 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "// Resettable signal average and std\r\n// Vincent Goudard — 2021\r\n//\r\n// useful links :\r\n// https://cycling74.com/forums/how-to-reset-delay\r\n// https://cycling74.com/forums/clear-delay-line-in-gen\r\n\r\n\r\n\r\nData mydata(48000);\r\nHistory sum(0);\r\nHistory std(0);\r\nHistory index(0);\r\nHistory squaredevSum(0);\r\nHistory previous_datasize(48000);\r\nData deviation(48000);\r\n\r\n// how much did we collect since last reset\r\nHistory collected(0);\r\n\r\ndatasize = clip(int(in2), 1, 48000);\r\n\r\n// reset memory if datasize changes or on a reset signal\r\nif ((datasize != previous_datasize)||in3) {\r\n\t//clear the data\r\n\tfor(i=0;i<datasize;i+=1) {\n\t\tpoke(mydata, 0, i);\r\n\t\tpoke(deviation, 0, i);\n\t}\r\n\tindex = 0; \r\n\tsum = 0;\r\n\tsquaredevSum = 0;\r\n\tprevious_datasize = datasize;\r\n\tcollected = 0;\r\n}\r\n\r\n\r\n// increase collected data counbt\r\ncollected += 1;\r\n// prevent it from rising up above the limits\r\ncollected = min(datasize, collected);\r\n\r\n//count += 1;\r\npoke(mydata, in1, index);\r\n\r\n//add the new data to the running sum\r\nsum += in1;\r\n// compute the current average\r\n//mean = med/(datasize);\r\nmean = sum/(min(datasize, collected));\r\n\r\n// compute standard deviation\r\ndev  = (in1 - mean);\r\nsquaredev = dev*dev;\r\npoke(deviation, squaredev, index);\r\nsquaredevSum += squaredev;\r\nstd = sqrt(squaredevSum/(min(datasize, collected)));\r\n\r\n// circular running index in the Data buffer\r\nindex = wrap(index+1, 0, datasize);\r\n// remove oldest entry from the overall sum\r\nsum -= peek(mydata, index);\r\nsquaredevSum -= peek(deviation, index);\r\n\r\nout1 = mean;\r\nout2 = std;\r\nout3 = collected;\r\n\r\n",
+					"fontface" : 0,
+					"fontname" : "<Monospaced>",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "codebox",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 25.0, 46.0, 571.0, 778.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 25.0, 11.0, 28.0, 22.0 ],
+					"text" : "in 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.0, 841.0, 133.0, 22.0 ],
+					"text" : "out 1 @comment mean"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-6", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 2 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+ ],
+		"autosave" : 0
+	}
+
+}
