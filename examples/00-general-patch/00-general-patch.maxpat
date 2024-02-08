@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 332.0, 344.0, 714.0, 590.0 ],
+		"rect" : [ 332.0, 344.0, 1198.0, 672.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -121,7 +121,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -167,7 +167,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -225,7 +225,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -551,7 +551,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -968,7 +968,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1026,7 +1026,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1577,7 +1577,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1635,7 +1635,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1765,6 +1765,7 @@
 																			"parameter_enum" : [ "off", "on" ],
 																			"parameter_longname" : "live.toggle[6]",
 																			"parameter_mmax" : 1,
+																			"parameter_modmode" : 0,
 																			"parameter_shortname" : "live.toggle",
 																			"parameter_type" : 2
 																		}
@@ -1917,7 +1918,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2098,7 +2099,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2367,7 +2368,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2730,7 +2731,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2872,6 +2873,7 @@
 											"parameter_longname" : "live.gain~[15]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -2944,6 +2946,7 @@
 											"parameter_longname" : "live.gain~[18]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -2975,6 +2978,7 @@
 											"parameter_longname" : "live.gain~[16]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -3006,6 +3010,7 @@
 											"parameter_longname" : "live.gain~[19]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -3029,7 +3034,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3136,7 +3141,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4091,7 +4096,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4377,7 +4382,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4423,7 +4428,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4481,7 +4486,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4807,7 +4812,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5224,7 +5229,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5282,7 +5287,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5833,7 +5838,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5916,7 +5921,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -6056,6 +6061,7 @@
 																			"parameter_enum" : [ "off", "on" ],
 																			"parameter_longname" : "live.toggle[7]",
 																			"parameter_mmax" : 1,
+																			"parameter_modmode" : 0,
 																			"parameter_shortname" : "live.toggle",
 																			"parameter_type" : 2
 																		}
@@ -6217,7 +6223,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -6398,7 +6404,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -6667,7 +6673,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7043,7 +7049,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7185,6 +7191,7 @@
 											"parameter_longname" : "live.gain~[20]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -7257,6 +7264,7 @@
 											"parameter_longname" : "live.gain~[21]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -7288,6 +7296,7 @@
 											"parameter_longname" : "live.gain~[22]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -7319,6 +7328,7 @@
 											"parameter_longname" : "live.gain~[23]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -7630,6 +7640,7 @@
 							"parameter_longname" : "live.gain~[11]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "mc.live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -7697,6 +7708,7 @@
 							"parameter_longname" : "live.gain~[8]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "mc.live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -7744,7 +7756,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7790,7 +7802,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7877,7 +7889,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7976,7 +7988,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8063,7 +8075,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8150,7 +8162,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8274,7 +8286,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8361,7 +8373,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8448,7 +8460,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8670,6 +8682,7 @@
 							"parameter_longname" : "live.gain~[7]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "mc.live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -8749,6 +8762,7 @@
 							"parameter_longname" : "live.gain~[10]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "mc.live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -8844,7 +8858,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8902,7 +8916,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9082,7 +9096,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9408,7 +9422,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9878,7 +9892,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9936,13 +9950,13 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 89.0, 525.0, 1335.0, 491.0 ],
+														"rect" : [ 89.0, 693.0, 691.0, 323.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -10190,7 +10204,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10590,13 +10604,13 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 523.0, 277.0, 640.0, 480.0 ],
+										"rect" : [ 363.0, -677.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -10624,6 +10638,7 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-2",
@@ -10648,7 +10663,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10791,6 +10806,7 @@
 																			"parameter_enum" : [ "off", "on" ],
 																			"parameter_longname" : "live.toggle[5]",
 																			"parameter_mmax" : 1,
+																			"parameter_modmode" : 0,
 																			"parameter_shortname" : "live.toggle",
 																			"parameter_type" : 2
 																		}
@@ -10951,7 +10967,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11132,7 +11148,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11401,7 +11417,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11763,7 +11779,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11905,6 +11921,7 @@
 											"parameter_longname" : "live.gain~[17]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -11977,6 +11994,7 @@
 											"parameter_longname" : "live.gain~[14]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -12008,6 +12026,7 @@
 											"parameter_longname" : "live.gain~[13]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -12039,6 +12058,7 @@
 											"parameter_longname" : "live.gain~[12]",
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "mc.live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -12062,7 +12082,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12169,7 +12189,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -13132,7 +13152,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13528,15 +13548,16 @@
 		"parameters" : 		{
 			"obj-10::obj-10" : [ "mc.vst~[3]", "mc.vst~[3]", 0 ],
 			"obj-113::obj-133" : [ "live.gain~[17]", "mc.live.gain~", 0 ],
+			"obj-113::obj-1::obj-13::obj-5::obj-25::obj-61::obj-20.1::obj-49::obj-8::obj-7" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-113::obj-1::obj-13::obj-5::obj-25::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-113::obj-81::obj-180::obj-7" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-113::obj-88::obj-56::obj-47::obj-16::obj-5::obj-25::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-113::obj-88::obj-56::obj-47::obj-16::obj-5::obj-25::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[10]", "live.toggle", 0 ],
 			"obj-113::obj-94" : [ "live.gain~[12]", "mc.live.gain~", 0 ],
 			"obj-113::obj-97" : [ "live.gain~[13]", "mc.live.gain~", 0 ],
 			"obj-113::obj-98" : [ "live.gain~[14]", "mc.live.gain~", 0 ],
 			"obj-11::obj-133" : [ "live.gain~[15]", "mc.live.gain~", 0 ],
-			"obj-11::obj-1::obj-13::obj-5::obj-25::obj-61::obj-20.1::obj-49::obj-8::obj-7" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-11::obj-1::obj-13::obj-5::obj-25::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-11::obj-81::obj-180::obj-7" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-11::obj-81::obj-96::obj-8::obj-5::obj-25::obj-61::obj-20.1::obj-8::obj-8::obj-7" : [ "live.toggle[11]", "live.toggle", 0 ],
 			"obj-11::obj-94" : [ "live.gain~[19]", "mc.live.gain~", 0 ],
 			"obj-11::obj-97" : [ "live.gain~[16]", "mc.live.gain~", 0 ],
 			"obj-11::obj-98" : [ "live.gain~[18]", "mc.live.gain~", 0 ],
@@ -13545,10 +13566,8 @@
 			"obj-40" : [ "live.gain~[8]", "mc.live.gain~", 0 ],
 			"obj-45" : [ "live.gain~[11]", "mc.live.gain~", 0 ],
 			"obj-49" : [ "live.gain~[10]", "mc.live.gain~", 0 ],
-			"obj-7::obj-27::obj-25::obj-61::obj-20.1::obj-12::obj-8::obj-7" : [ "live.toggle[9]", "live.toggle", 0 ],
 			"obj-9::obj-133" : [ "live.gain~[20]", "mc.live.gain~", 0 ],
 			"obj-9::obj-81::obj-180::obj-7" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-9::obj-81::obj-96::obj-8::obj-5::obj-25::obj-61::obj-20.1::obj-8::obj-8::obj-7" : [ "live.toggle[10]", "live.toggle", 0 ],
 			"obj-9::obj-94" : [ "live.gain~[23]", "mc.live.gain~", 0 ],
 			"obj-9::obj-97" : [ "live.gain~[22]", "mc.live.gain~", 0 ],
 			"obj-9::obj-98" : [ "live.gain~[21]", "mc.live.gain~", 0 ],
@@ -13562,19 +13581,15 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-11::obj-1::obj-13::obj-5::obj-25::obj-61::obj-20.1::obj-49::obj-8::obj-7" : 				{
+				"obj-113::obj-1::obj-13::obj-5::obj-25::obj-61::obj-20.1::obj-49::obj-8::obj-7" : 				{
 					"parameter_longname" : "live.toggle[8]"
 				}
 ,
-				"obj-11::obj-81::obj-96::obj-8::obj-5::obj-25::obj-61::obj-20.1::obj-8::obj-8::obj-7" : 				{
-					"parameter_longname" : "live.toggle[11]"
-				}
-,
-				"obj-7::obj-27::obj-25::obj-61::obj-20.1::obj-12::obj-8::obj-7" : 				{
+				"obj-113::obj-88::obj-56::obj-47::obj-16::obj-5::obj-25::obj-61::obj-20.1::obj-12::obj-8::obj-7" : 				{
 					"parameter_longname" : "live.toggle[9]"
 				}
 ,
-				"obj-9::obj-81::obj-96::obj-8::obj-5::obj-25::obj-61::obj-20.1::obj-8::obj-8::obj-7" : 				{
+				"obj-113::obj-88::obj-56::obj-47::obj-16::obj-5::obj-25::obj-61::obj-20.1::obj-5::obj-12::obj-8::obj-7" : 				{
 					"parameter_longname" : "live.toggle[10]"
 				}
 
