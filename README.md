@@ -36,7 +36,7 @@ Custom vibrotactile bracelets (see picture) have been designed during the *Stacc
 ![alt text](./media/staccato-bracelet.jpg "A vibrotactile bracelet.")
 
 ### Subpac
-The commercial vibrotactile-backpack interface known as ["Subpac"](https://subpac.com) was also used as an audio transducer, driven with custom-made vibrotactile signals, in place of the expected audio input. The headphone thru-put of the Subpac was discarded in such a configuration.
+The commercial vibrotactile-backpack interface known as "[Subpac](https://subpac.com)" was also used as an audio transducer, driven with custom-made vibrotactile signals, in place of the expected audio input. The headphone thru-put of the Subpac was discarded in such a configuration.
 
 ### Other
 We also tested various other speakers encapsulation such as wrapping it into foam-balls (so that it can be touched/handled with the hands), or into a cushion (so that it can be placed under the head or neck), placing it onto a table, seat or floor, so that one can lie down and feel the vibration through multiple location on the body.  
